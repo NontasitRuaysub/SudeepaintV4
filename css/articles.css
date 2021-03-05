@@ -1,0 +1,28 @@
+#articles h1 {
+    margin: 60px 0;
+}
+#articles img {
+    width: 75%;
+}
+
+#related-articles h5 {
+    text-align: center;
+}
+
+hr  {
+    margin: 60px auto;
+    width: 10%;
+}
+
+/* For All-Articles pages */
+#allArticles {
+    text-align: center;
+    margin: 150px 0;
+}
+.all-articles-details h3 {
+    text-align: center;
+}
+.all-articles-details {
+    margin: 100px 0;
+    text-align: start;
+}

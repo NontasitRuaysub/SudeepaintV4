@@ -1,0 +1,21 @@
+#promotions h1, h2 {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#promotions ol {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+#promotions p {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.line-id {
+    margin: 40px 0;
+}
+.line-id-image {
+    width: 300px;
+}

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudeepaint</title>
+
+    <!-- Bootstrap-Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- logo-favicon -->
+    <link rel="icon" type="image/png" href="images/logo-favicon/logo-favicon.png">
+
+    <!-- Css-file -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header id="header-contact">
+        <div class="container-fluid">
+            <div class="header-contact-link">
+                <a href="https://page.line.me/vjs7760t?openQrModal=true">
+                    <h6>สอบถาม - ขอใบเสนอราคา แอดไลน์ที่นี่</h6>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main-Nav-Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class=container-fluid>
+            <!-- Nav-Bar-Brand -->
+            <a href="index.html" class="navbar-brand">
+                <img src="images\logo-image\logo.jpg" class="navbar-brand-logo" alt="navbar-brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">หน้าแรก</a>
+                    </li>
+
+                    <!-- Drop-down-menu -->
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            สินค้า
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">ยี่ห้อ</li>
+                            <li class="dropdown-item">สีทาอาคาร</li>
+                            <li class="dropdown-item">สีทาเรือ</li>
+                            <li class="dropdown-item">สีที่มีความคงทนสูง</li>
+                            <li class="dropdown-item">สีตกแต่งพิเศษ</li>
+                            <li class="dropdown-item">เคมีภัณฑ์</li>
+                            <li class="dropdown-item">งานไม้, ไม้เทียม</li>
+                            <li class="dropdown-item">ฮาร์ดแวร์</li>
+                            <li class="dropdown-item">อุปกรณ์ทาสี</li>
+                            <li class="dropdown-item">กลุ่มสีพรีเมียมคุณภาพสูงสูด</li>
+                            <li class="dropdown-item">กลุ่มสีพรีเมียมคุณภาพสูง</li>
+                            <li class="dropdown-item">กลุ่มสีคุณภาพมาตรฐาน</li>
+                            <li class="dropdown-item">กลุ่มอีโคโนมี</li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="promotions\promotion1.html" class="nav-link">โปรโมชั่นและข่าวสาร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="articles/all-articles.pg.html" class="nav-link">บทความ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-company\about-company.html" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">ติดต่อเรา</a>
+                    </li>
+                </ul>
+
+                <!-- Search-Button -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Carousel-Section -->
+        <section id="carousel">
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/carousel-images/promo.jpg" class="d-block w-100" alt="carousel-images"
+                            title="โปรโมชั่นส่ง ฟรี ทั่วกรุงเทพฯ เมื่อซื้อครบ 2,000 บาท ขึ้นไป">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel-images/carousel-image-1.jpg" class="d-block w-100"
+                            alt="carousel-images">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel-images/carousel-image-2.jpg" class="d-block w-100"
+                            alt="carousel-images">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel-images/carousel-image-3.jpg" class="d-block w-100"
+                            alt="carousel-images">
+                    </div>
+                    <div class="carousel-item">
+                        <a href="promotions\promotion1.html">
+                            <img src="promotions\promotions-images\promo-1.png" class="d-block w-100"
+                                alt="carousel-images">
+                        </a>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Slogan-Service-Section -->
+        <section id="sloganService">
+            <div class="container">
+                <div class="row">
+                    <div class="service-slogan-details col-12">
+                        <h1>บริการด้วยใจ เพราะคุณคือ ลูกค้า คนสำคัญ</h1>
+                        <p>กว่า 30 ปีที่สุดีเพ้นท์เซ็นเตอร์ให้บริการจำหน่ายสี
+                            และได้รับความไว้วางใจจากลูกค้าอย่างดีมาโดยตลอด
+                            ทางเรามีสินค้าหลากหลาย ครบทุกยี่ห้อ พร้อมเจ้าที่คอยให้คำแนะนำ ให้คำปรึกษาการเลือกสี
+                            การออกแบบสีที่ครบวงจร</p>
+                    </div>
+                </div>
+                <div class="row slogan-service-images">
+                    <img src="images/slogan-service-images/slogan_1.jpg" class="img-fluid col-md-4"
+                        alt="slogan-service-images">
+                    <img src="images/slogan-service-images/slogan_2.jpg" class="img-fluid col-md-4"
+                        alt="slogan-service-images">
+                    <img src="images/slogan-service-images/slogan_3.jpg" class="img-fluid col-md-4"
+                        alt="slogan-service-images">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Interior Paint -->
+        <section id="interiorSelling">
+            <div class="container">
+                <div class="col-12">
+                    <a href="" class="products-link">
+                        <h1>สีทาภายใน</h1>
+                    </a>
+                </div>
+                <!-- Interior-products -->
+                <div class="row">
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/interior-images/interior-beger.jpg" class="card-img-top img-fluid"
+                                alt="interior-seller-products">
+
+                            <div class="card-body">
+                                <h6 class="card-title">นิปปอนเพนต์ ทรี-อิน-วัน วอล ซีลเลอร์</h6>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                                <p class="stock-status">Sold out</p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/interior-images/interior-beger.jpg" class="card-img-top img-fluid"
+                                alt="interior-seller-products">
+
+                            <div class="card-body">
+                                <h6 class="card-title">นิปปอนเพนต์ ทรี-อิน-วัน วอล ซีลเลอร์</h6>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                                <p class="stock-status">Sold out</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/interior-images/interior-beger.jpg" class="card-img-top img-fluid"
+                                alt="interior-seller-products">
+
+                            <div class="card-body">
+                                <h6 class="card-title">นิปปอนเพนต์ ทรี-อิน-วัน วอล ซีลเลอร์</h6>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                                <p class="stock-status">Sold out</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/interior-images/interior-beger.jpg" class="card-img-top img-fluid"
+                                alt="interior-seller-products">
+
+                            <div class="card-body">
+                                <h6 class="card-title">นิปปอนเพนต์ ทรี-อิน-วัน วอล ซีลเลอร์</h6>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                                <p class="stock-status">Sold out</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/interior-images/interior-beger.jpg" class="card-img-top img-fluid"
+                                alt="interior-seller-products">
+
+                            <div class="card-body">
+                                <h6 class="card-title">นิปปอนเพนต์ ทรี-อิน-วัน วอล ซีลเลอร์</h6>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                                <p class="stock-status">Sold out</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/interior-images/interior-beger.jpg" class="card-img-top img-fluid"
+                                alt="interior-seller-products">
+
+                            <div class="card-body">
+                                <h6 class="card-title">นิปปอนเพนต์ ทรี-อิน-วัน วอล ซีลเลอร์</h6>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                                <p class="stock-status">Sold out</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 viewAllLink">
+                        <a href="" class="viewAll">
+                            <p>ดูสินค้าทั้งหมด</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-Banner -->
+        <section id="contactBanner">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6 contact-banner-detail">
+                        <div>
+                            <h6>สุดีเพนท์ ศูนย์สีที่คุณไว้ใจ</h6>
+                            <p>พร้อมตอบทุกปัญหา เรื่องสีทาอาคาร ให้เรื่องสีบ้านของคุณเป็นหน้าที่ของเรา</p>
+                            <a href="https://page.line.me/vjs7760t?openQrModal=true">
+                                <img src="images/line-id-image/line-id.png" alt="Line Id Image"
+                                    class="img-fluid line-id-image-banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/contact-banner/contact-banner.jpg" alt="Contact Banner" class="img-fluid "
+                            title="ติดต่อสอบถามสินค้าที่ Line Id: @sudeepaint">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Best-Selling-Section -->
+        <Section id="bestSelling">
+            <div class="container">
+                <div class="col-12">
+                    <a href="best-selling\best-selling.index.html" class="products-link">
+                        <h1>สินค้าขายดี</h1>
+                    </a>
+                </div>
+                <!-- Bestselling-products -->
+                <div class="row">
+
+                    <div class="card col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/bestselling-images/toa/bestseller-toa.jpg" class="card-img-top img-fluid"
+                                alt="best-seller-products">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา</h5>
+                                <p class="card-text">Sudeepaint</p>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/bestselling-images/toa/bestseller-toa.jpg" class="card-img-top img-fluid"
+                                alt="best-seller-products">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา</h5>
+                                <p class="card-text">Sudeepaint</p>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/bestselling-images/toa/bestseller-toa.jpg" class="card-img-top img-fluid"
+                                alt="best-seller-products">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา</h5>
+                                <p class="card-text">Sudeepaint</p>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/bestselling-images/toa/bestseller-toa.jpg" class="card-img-top img-fluid"
+                                alt="best-seller-products">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา</h5>
+                                <p class="card-text">Sudeepaint</p>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/bestselling-images/toa/bestseller-toa.jpg" class="card-img-top img-fluid"
+                                alt="best-seller-products">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา</h5>
+                                <p class="card-text">Sudeepaint</p>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card col-sm-6 col-md-4">
+                        <a href="product-groups\products-group-toa\product-toa-details.html" class="products-link">
+                            <img src="images/bestselling-images/toa/bestseller-toa.jpg" class="card-img-top img-fluid"
+                                alt="best-seller-products">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา</h5>
+                                <p class="card-text">Sudeepaint</p>
+                                <p class="card-text">0.00<span class="baht-symbol">&#3647;</span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 viewAllLink">
+                <a href="best-selling\best-selling.index.html" class="viewAll">
+                    <p>ดูสินค้าทั้งหมด</p>
+                </a>
+            </div>
+        </Section>
+
+        <!-- Review from Customer -->
+        <section id="review">
+            <h1>รีวิวจากลูกค้า</h1>
+            <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="container">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3 review-slot">
+                                    <div class="single-box">
+                                        <!-- Double Quote Symbol -->
+                                        <img src="images/review-images/quote.svg" alt="">
+                                        <p>บริการดี มีสีให้เลือกหลากหลายยี่ห้อ มาที่เดียวจบ ราคากันเอง
+                                            พนักงานให้คำแนะนำกระจ่างมาก
+                                            ทำให้ช่วยในการตัดสินใจเลือกใช้สีที่ดีเหมาะตามสภาพหน้างานที่บ้าน
+                                            ไม่ว่าจะสีทาไม้
+                                            สีทาผนังบ้านปูน หรือ สีทารั้วเหล็ก ทนทาน ช่วงเดินทางติดขัดบ้าง โทรสั่ง หรือ
+                                            ปรึกษาได้ ทางร้านพร้อมให้บริการตามปกติ
+                                        </p>
+                                        <p>— Nai Song</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single-box">
+                                        <!-- Double Quote Symbol -->
+                                        <img src="images/review-images/quote.svg" alt="">
+                                        <p>ครบกว่าดูโฮม ถูกกว่าโฮมโปร โอกว่าไทวัสดุ​ ก็มีร้านนี้แหละครับ</p>
+                                        <p>— Santi Kakhanmalee</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single-box">
+                                        <!-- Double Quote Symbol -->
+                                        <img src="images/review-images/quote.svg" alt="">
+                                        <p>สีถูกมาก บริการดี ใช้บริการมาตั้งแต่รุ่นพ่อ 30กว่าปีแล้วของครบ มีบริการส่ง
+                                            ลูกค้าช่าง
+                                            ผู้รับเหมาเยอะมาก
+                                        </p>
+                                        <p>— anurag Lert</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <div class="single-box">
+                                        <!-- Double Quote Symbol -->
+                                        <img src="images/review-images/quote.svg" alt="">
+                                        <p>แนะนำดีครับ ไม่ขายของเกินความจำเป็น มีบริการส่งด้วย</p>
+                                        <p>— Phanat Lertrattanachaikij</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single-box">
+                                        <!-- Double Quote Symbol -->
+                                        <img src="images/review-images/quote.svg" alt="">
+                                        <p>ครบกว่าดูโฮม ถูกกว่าโฮมโปร โอกว่าไทวัสดุ​ ก็มีร้านนี้แหละครับ</p>
+                                        <p>— Santi Kakhanmalee</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single-box">
+                                        <!-- Double Quote Symbol -->
+                                        <img src="images/review-images/quote.svg" alt="">
+                                        <p>บริการดี มีสีให้เลือกหลากหลายยี่ห้อ มาที่เดียวจบ ราคากันเอง
+                                            พนักงานให้คำแนะนำกระจ่างมาก
+                                            ทำให้ช่วยในการตัดสินใจเลือกใช้สีที่ดีเหมาะตามสภาพหน้างานที่บ้าน
+                                            ไม่ว่าจะสีทาไม้
+                                            สีทาผนังบ้านปูน หรือ สีทารั้วเหล็ก ทนทาน ช่วงเดินทางติดขัดบ้าง โทรสั่ง หรือ
+                                            ปรึกษาได้ ทางร้านพร้อมให้บริการตามปกติ
+                                        </p>
+                                        <p>— Nai Song</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Trusted Brand -->
+        <section id="trustedBrand">
+            <div class="container">
+
+                <div class="row">
+                    <h1>เลือกสีตามยี่ห้อ</h1>
+                </div>
+
+                <!-- Trusted-Brand--->
+                <div class="row trusted-brand-group">
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-toa\products-toa-pg1.html">
+                            <img src="images/trusted-brand/toa.jpg" alt="ภาพสีทีโอเอ" title="สีทีโอเอ">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-nippon\products-nippon-pg1.html">
+                            <img src="images/trusted-brand/nippon.jpg" alt="ภาพสีนิปปอน" title="สีนิปปอน">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-dulux\products-dulux-pg1.html">
+                            <img src="images/trusted-brand/dulux.jpg" alt="ภาพสีดีลักซ์" title="สีดีลักซ์">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-jbp\products-jbp-pg1.html">
+                            <img src="images/trusted-brand/jbp-logo.jpg" alt="ภาพสีเจบีที" title="สีเจบีที">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-captain\products-captain-pg1.html">
+                            <img src="images/trusted-brand/captain.jpg" alt="ภาพสีกัปตัน" title="สีกัปตัน">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-chugoku\products-chugoku-pg1.html">
+                            <img src="images/trusted-brand/chugoku.jpg" alt="ภาพสีชูโกกุ" title="สีชูโกกุ">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-jotun\products-jotun-pg1.html">
+                            <img src="images/trusted-brand/jotun.jpg" alt="ภาพสีโจทัน" title="สีโจทัน">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="product-groups\products-group-beyer\products-beyer-pg1.html">
+                            <img src="images/trusted-brand/beger.jpg" alt="ภาพสีเบเยอร์" title="สีเบเยอร์">
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles-Section -->
+        <section id="articles">
+            <div class="container">
+                <div class="col-12">
+                    <h1>บทความน่าสนใจ</h1>
+                </div>
+                <div class="row">
+                    <div class="card col-md-4">
+                        <img src="images/article-images/article-image.jpg" class="card-img-top img-fluid"
+                            alt="best-seller-products">
+
+                        <div class="card-body">
+                            <h5 class="card-title">สีคืออะไร และทำไมถึงต้องทาสี?</h5>
+                            <p class="card-text">สี ตามพจนานุกรมหมายถึง
+                                วัสดุชนิดหนึ่งที่อยู่ในรูปของเหลวใช้ในการเคลือบบนพื้นผิวใดๆ
+                                และเมือแห้งตัวก็จะเกิดเป็นฟิล์มบนพื้นผิว เพื่อให้เป็นไปตามวัตถุป...</p>
+                            <a href="" class="btn btn-outline-secondary">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-4">
+                        <img src="images/article-images/article-image.jpg" class="card-img-top img-fluid"
+                            alt="best-seller-products">
+
+                        <div class="card-body">
+                            <h5 class="card-title">สีมีกี่ชนิด และต่างกันอย่างไร</h5>
+                            <p class="card-text">“สีทาบ้าน”
+                                ถือเป็นตัวช่วยสำคัญที่เข้ามาเติมสีสันและเสริมบรรยากาศให้บ้านของเราดูสวยงามน่าอยู่ยิ่งขึ้น
+                                ซึ่งสีแต่ละชนิดก็มีคุณสมบัติและมีการใช้งานท...</p>
+                            <a href="" class="btn btn-outline-secondary">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-4">
+                        <img src="images/article-images/article-image.jpg" class="card-img-top img-fluid"
+                            alt="best-seller-products">
+
+                        <div class="card-body">
+                            <h5 class="card-title">ความสำคัญของการเตรียมพื้นผิว และสีรองพื้น</h5>
+                            <p class="card-text">การเตรียมพื้นผิวและการใช้สีรองพื้น สำคัญแค่ไหน? หลาย ๆ ท่าน
+                                เวลาเลือกซื้อสีมักสนใจแต่สีทับหน้า เพราะว่าสีทับหน้านั้นมีการโฆษณาจากผู้ผลิตมากที่...
+                            </p>
+                            <a href="" class="btn btn-outline-secondary">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 viewAllLink">
+                            <a href="articles\articles-1.html" class="viewAll">ดูทั้งหมด</a>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+    </main>
+
+    <!-- Footer-Section -->
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <nav id="footerNav" class="nav flex-column col-lg-4">
+                    <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    <a href="" class="nav-link">Products</a>
+                    <a href="promotions\promotion1.html" class="nav-link">Promotions</a>
+                    <a href="articles\articles-1.html" class="nav-link">Articles</a>
+                </nav>
+                <div class="location-detail col-lg-4">
+                    <h5>Location</h5>
+                    <p>Sudeepaint Center Co., Ltd.</p>
+                    <p>Location 797,799 Ramkhamhaeng Hua Mak, Bang Kapi, Bangkok, Thailand, 10240</p>
+                </div>
+                <div class="contact-details col-lg-4">
+                    <h5>Contact us</h5>
+                    <p>Mobile: 092-615-6424</p>
+                    <p>Tel.: 02-374-2540</p>
+                    <p>email: sudeepaint@hotmail.com</p>
+                </div>
+                <p class="copyright">&copy Copyright by Sudeepaint 2021</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

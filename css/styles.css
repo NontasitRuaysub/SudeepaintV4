@@ -1,0 +1,418 @@
+
+/* Header-Contact */
+#header-contact {
+    background-color: #A82F14;
+    text-align: center;
+}
+#header-contact:hover {
+    background-color: #ff4229;
+}
+#header-contact a {
+    text-decoration: none;
+}
+#header-contact h6 {
+    color: white;
+    font-weight: bold;
+}
+.header-contact-link {
+    padding: 15px 0;
+}
+
+/* Navbar-Section */
+.navbar-brand-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+/* <!-- Slogan-Service-Section --> */
+#sloganService {
+    text-align: center;
+    margin-top: 100px;
+}
+.service-slogan-details {
+    font-size: 1.2rem;
+    width: 100%;
+}
+.service-slogan-details p {
+    margin-top: 20px;
+}
+.slogan-service-images {
+    margin: 50px auto 0;
+    width: 100%;
+}
+
+/* Best-Selling & interiorSelling Section */
+#interiorSelling {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.baht-symbol, .card-text {
+    color: #6b6860;
+    font-weight: bold;
+}
+#bestSelling  {
+    text-align: center;
+    margin-top: 60px;
+}
+.products-link, .viewAll {
+    text-decoration: none;
+    color: black;
+}
+.products-link:hover {
+    text-decoration: none;
+    color: black;
+}
+.stock-status {
+    color: #6b6860;
+    border: 1px solid #ACA9BB;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card {
+    border: none;
+    margin: 30px auto 0;
+    padding: 30px;
+    text-align: left;
+}
+#bestSelling img {
+    border: 3px solid #A82F14;
+}
+
+
+/* Contact Banner Section */
+#contactBanner {
+    margin: 150px 0;
+}
+.line-id-image-banner {
+    width: 70%;
+}
+.contact-banner-detail {
+    position: relative;
+}
+.line-id-image-banner {
+    position: absolute;
+    left: 0;
+}
+
+/* Review Section */
+#review {
+    text-align: center;
+    margin: 100px 0;
+}
+#review .carousel-inner {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.carousel-item img[src$="quote.svg"] {
+    height: 20px;
+    margin-bottom: 40px;
+}
+
+#review .carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    height: 13px;
+    width: 10px;
+    margin: 0 10px;
+    border: none;
+}
+#review button.active {
+    background-color: black;
+}
+.single-box {
+    border-left: 3px solid #e6e7e8;
+}
+.single-box p {
+    padding-left: 10px;
+}
+
+/* Trusted Brand */
+#trustedBrand {
+    margin-top: 100px;
+    text-align: center;
+}
+.trusted-brand-group {
+    margin-top: 60px;
+}
+.trusted-brand-group img {
+    width: 65%;
+}
+
+/* Articles-Section */
+#articles {
+    margin: 150px 0;
+    text-align: center;
+}
+
+/* footer-Section */
+footer {
+    background-color: #A82F14;
+    color: white;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .nav-link {
+    text-decoration: none;
+    color: white;
+}
+#footerNav {
+    line-height: 0.5;
+    margin-bottom: 40px;
+}
+.location-detail {
+    line-height: 1.2;
+}
+.contact-details {
+    line-height: 0.5;
+    margin-top: 40px;
+}
+.copyright {
+    color: #ACA9BB;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* View-all-link */
+.viewAllLink {
+    margin-top: 50px;
+}
+.viewAll {
+    color: #A82F14;
+    font-size: 25px;
+    font-weight: bold;
+}
+.viewAll:hover {
+    text-decoration: none;
+    color: #A82F14;
+}
+
+/* google map */
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    margin: 0 auto;
+}
+.mapouter {
+    position: relative;
+    height: 500px;
+    width: 900px;
+    margin: 30px auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsive-Section */
+/* Screen responsive width 576px - max 767px  */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    /* Slogan-Service-Section */
+    #sloganService {
+        text-align: left;
+        margin-top: 50px;
+    }
+    .service-slogan-details {
+        width: 100%;
+    }
+    #sloganService h1 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    #sloganService p {
+        font-size: 1.25rem;
+        margin-top: 20px;
+    }
+    .slogan-service-images {
+        width: 92%;
+        margin-top: 0;
+    }
+    .slogan-service-images img {
+        margin: 50px 0;
+    }
+
+    /* Interior-Paint-Section & Bestselling-products */
+    #interiorSelling {
+        margin-top: 50px;
+    }
+    .card {
+        width: 50%;
+        padding: 15px;
+    }
+    .card-body {
+        line-height: 1;
+    }
+    .stock-status {
+        width: 100%;
+        font-size: 16px;
+        padding: 2px;
+    }
+
+    /* Contact-Banner-Details-Section */
+    #contactBanner {
+        margin: 50px auto;
+    }
+    .contact-banner-detail {
+        padding: 15px;
+    }
+    .contact-banner-detail h6 {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+     .line-id-image-banner {
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 90%;
+        margin: 10px auto; 
+      }
+      /* Review-Section */
+    .single-box {
+        border: none;
+    }
+    #review .carousel-inner {
+        height: 700px;
+        margin-top: 50px;
+    }
+
+    /* Trusted-Brand-Section */
+    #trustedBrand {
+        margin-top: 100px;
+    }
+    .trusted-brand-group img {
+        width: 45%;
+        margin: 30px 0;
+    }
+
+    /* Articles-Section */
+    #articles {
+        margin: 50px 0;
+    }
+    #articles .card {
+        width: 100%;
+    }
+    #articles h5 {
+        font-weight: 800;
+    }
+    #articles .card-text {
+        color: black;
+        font-weight: normal;
+        line-height: 1.8;
+        margin: 20px 0;
+    }
+    .viewAllLink {
+        margin-top: 50px;
+    }
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+    
+    .copyright {
+        margin-top: 30px;
+    }
+}
+/* Screen responsive width 576px - max 767px  */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Slogan-Service-Section */
+    #sloganService {
+        text-align: left;
+        margin-top: 50px;
+    }
+    #sloganService h1 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .service-slogan-details {
+        width: 100%;
+    }
+    #sloganService p {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    .slogan-service-images {
+        width: 75%;
+        margin-top: 20px;
+    }
+    /* Interior-Paint-Section & Bestselling-products */
+    #interiorSelling {
+        margin-top: 50px;
+    }
+    .card {
+        width: 50%;
+        padding: 15px;
+    }
+    .card-body {
+        line-height: 1;
+    }
+    .stock-status {
+        width: 100%;
+        font-size: 16px;
+        padding: 2px;
+    }
+    /* Contact-Banner-Details-Section */
+    #contactBanner {
+        margin: 50px auto;
+    }
+    .contact-banner-detail {
+        padding: 15px;
+    }
+    .contact-banner-detail h6 {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+     .line-id-image-banner {
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 90%;
+        margin: 10px auto; 
+      }
+       /* Review-Section */
+    .single-box {
+        border: none;
+    }
+    #review .carousel-inner {
+        height: 600px;
+        margin-top: 50px;
+    }
+    #trustedBrand {
+        margin-top: 100px;
+    }
+    .trusted-brand-group img {
+        width: 60%;
+        margin: 30px 0;
+    }
+    /* Articles-Section */
+    #articles {
+        margin: 50px 0;
+    }
+    #articles .card {
+        width: 100%;
+    }
+    #articles h5 {
+        font-weight: 800;
+    }
+    #articles .card-text {
+        color: black;
+        font-weight: normal;
+        line-height: 1.8;
+        margin: 20px 0;
+    }
+    .viewAllLink {
+        margin-top: 50px;
+    }
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+      
+}

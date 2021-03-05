@@ -1,0 +1,17 @@
+/* About-Company-Section */
+#about-company {
+    margin-top: 100px;
+}
+#about-company h1 {
+    text-align: center;
+}
+#about-company img {
+    margin: 60px auto;
+    width: 70%;
+
+}
+
+#about-company p {
+    margin: 0 auto;
+    width: 70%;
+}
